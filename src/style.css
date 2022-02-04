@@ -1,1 +1,86 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  padding: 50px;
+}
+.box {
+  display: flex;
+  margin: 0px;
+  background-color: white;
+  width: 350px;
+  height: 550px;
+  border: 2px solid rgb(83, 79, 79);
+  padding: 10px;
+  border-radius: 25px;
+}
+.box4geeks {
+  display: flex;
+  margin: auto;
+  background-image: url("https://previews.123rf.com/images/danlersk/danlersk1709/danlersk170900353/86691803-fondo-de-vector-abstracto-rayas-blanco-y-negro-rasgu%C3%B1os-fondo-abstracto-del-vector-fondo-abstracto-d.jpg");
+  background-repeat: repeat;
+  width: 350px;
+  height: 550px;
+  border: 2px solid rgb(83, 79, 79);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+::before {
+  display: flex;
+  align-items: left;
+  width: 350px;
+  height: 150px;
+  font-size: 100px;
+  padding: 20px 0px 0px 80px;
+  margin: -64px 0px 0px -82px;
+}
+
+.center {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 150px;
+  font-size: 50px;
+  padding-left: 80px;
+}
+
+::after {
+  margin-top: 380px;
+  display: flex;
+  align-items: right;
+  width: 350px;
+  height: 150px;
+  font-size: 100px;
+  padding: 20px 0px 0px 80px;
+}
+.button {
+  margin: 535px 13px 13px -216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  width: 85px;
+  height: 100px;
+}
+.spades::before,
+.spades::after {
+  content: "\2660";
+}
+.clubs::before,
+.clubs::after {
+  content: "\2663";
+}
+
+.hearts::before,
+.hearts::after {
+  content: "\2665";
+  color: red;
+}
+
+.diams::before,
+.diams::after {
+  content: "\2666";
+  color: red;
+}
